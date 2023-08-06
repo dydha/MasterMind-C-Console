@@ -8,4 +8,8 @@
     <NeutralLanguage>fr</NeutralLanguage>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Spectre.Console.ImageSharp" Version="0.47.0" />
+  </ItemGroup>
+
 </Project>

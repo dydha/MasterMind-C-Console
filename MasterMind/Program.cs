@@ -13,6 +13,7 @@ class Program
         //Méthode pour commencer le jeu.
         do
         {
+           
             Game.Start();
             Console.WriteLine("Voulez-vous recommencer ? (o/n)");
             
