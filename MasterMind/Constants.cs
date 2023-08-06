@@ -8,6 +8,7 @@ namespace MasterMind
 {
     class Constants
     {
+        public static int gameDurationInSeconds = 600; // Durée du jeu : 10 minutes
         public static  int MaxTour = 8; //Nombre maximum de tour.
         public static int RowColorsNumber = 4;// Le nombre de couleur à deviner 
         public static Dictionary<int, string> Colors = new() //Dictionnaire de couleurs.

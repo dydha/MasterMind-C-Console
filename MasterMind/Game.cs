@@ -15,11 +15,9 @@ namespace MasterMind
         
         public static void Start()
         {
-            int gameDurationInSeconds = 600; // Durée du jeu : 10 minutes
             Cts.Token.Register(OnGameTimerElapsed, Cts);
-
             // Minuteur pour arrêter le jeu après 10 minutes
-            Cts.CancelAfter(gameDurationInSeconds * 1000);
+            Cts.CancelAfter(Constants.gameDurationInSeconds * 1000);
 
             int[] devinette = ColorsGenerator.Generate(); //tableau contenant les couleurs à deviner.
             
