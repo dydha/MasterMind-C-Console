@@ -22,7 +22,7 @@ namespace MasterMind
             Cts.CancelAfter(gameDurationInSeconds * 1000);
 
             int[] devinette = ColorsGenerator.Generate(); //tableau contenant les couleurs à deviner.
-            Console.WriteLine(string.Join(' ', devinette));
+            
             int tour = 1; //Initialisation de tour à 1.
                           //---------------Menu-------------------------------------
             Menu.Show();
